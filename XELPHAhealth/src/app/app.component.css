@@ -1,0 +1,26 @@
+.pageContent {height: auto; padding-top: 64px;}
+.pageContent .sideNav{
+    width: 220px;  border-right: 1px solid #E8E8E8;  min-height: 100%;  position: fixed;  top:65px; left: 0; z-index:8;
+    background: #fff; float: left; padding-top: 50px;
+}
+.active{background: #14ce83; color: #fff;}
+
+
+.pageToolbar{border-bottom: 1px solid #E8E8E8; z-index:9999999999; background:#fff; position:fixed; top:0; left: 0; padding-right:10px;}
+.pageToolbar a.item.right{right: 60px;  top:10px;}
+.pageToolbar a.right{right: 20px;  top:20px;}
+#menuIcon{display: none; cursor: pointer;}
+.pageToolbar a.logo{color:#f34c3a; font-weight: 600; font-size: 25px;}
+.pageToolbar a.logo span{color:#59cf95; font-weight: 400;}
+.pageContent .mainContent{  padding-left: 220px;  }
+
+
+
+@media only screen and (max-width :900px) {
+    .pageContent .sideNav{  display: none;  }
+    .pageContent .mainContent{  padding-left: 0px;  }
+    #menuIcon{display: block}
+}
+@media only screen and (max-width :500px) {
+    .pageToolbar a.item.right{display: none;}
+}

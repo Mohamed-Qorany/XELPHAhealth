@@ -1,0 +1,19 @@
+.dashboardItems{margin-top: 20vh; margin-left: 150px; margin-right: 150px;}
+.dashboardItem{
+    height: 180px; width: 200px; border: 1px solid #dedede; background: #fff; padding-top: 11px; text-align: center;
+    position: relative; overflow: hidden; display: block;margin: 10px auto;
+}
+.dashboardItem img{display: block; margin: 0 auto; margin-bottom: 5px; height: 100px; width: 100px;}
+
+
+
+
+@media only screen and (max-width :1400px) {
+    .dashboardItems{margin-left: 80px; margin-right: 80px;}
+}
+@media only screen and (max-width :1100px) {
+    .dashboardItems{margin-top: 15vh; margin-left: 10px; margin-right: 10px;}
+}
+@media only screen and (max-width :500px) {
+    .dashboardItems{margin-left: 0px; margin-right: 0px;}
+}

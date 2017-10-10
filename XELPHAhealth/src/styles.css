@@ -1,0 +1,11 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Alfa+Slab+One');
+body{ overflow-x: hidden; background: #F7F7F7; }
+*{ padding: 0; margin: 0; text-transform: capitalize;  font-family: 'Quicksand', sans-serif; text-decoration: none;}
+.right{position: absolute; right: 0;}
+
+
+
+
+.mat-tab-group{min-height: 91vh;}
+mat-sidenav {width: 200px;}
